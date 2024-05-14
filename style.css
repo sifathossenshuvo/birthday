@@ -1,0 +1,68 @@
+.header{
+    background-image: url("1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.button-primary{
+    padding: 10px 20px;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 8px;
+}
+.button-primary:hover{
+    background-color: aqua;
+}
+.button-primary a{
+    text-decoration: none;
+}
+.span{
+    color: rgb(52, 52, 252);
+}
+.text{
+    color: black;
+}
+.font{
+    font-size: 50px;
+}
+
+.name{
+    display: flex;
+ padding: 200px 200px;
+ gap: 500px;
+    align-items: center;
+}
+.gift{
+    justify-content: space-between;
+}
+.about{
+    text-align: center;
+}
+.about1{
+    margin-top: 100px;
+    background-color: rgb(222, 253, 242);
+    padding: 100px 100px;
+
+}
+#inv{
+    text-align: center;
+    
+}
+.loging{
+    margin-top: 100px;
+    background-color: rgb(222, 253, 242);
+}
+.log{
+    padding: 100px 100px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    margin-left: 550px;
+
+}
+.input input{
+    width: 500px;
+    margin-top: 15px;
+    padding: 20px 15px;
+    background-color: aquamarine;
+}
