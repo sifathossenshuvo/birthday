@@ -35,7 +35,10 @@
     justify-content: space-between;
 
 }
+.gift img{
+    width: 500px;
 
+}
 .about{
     text-align: center;
 }
@@ -75,6 +78,9 @@
     width: 500px;
     border-radius: 16px;
 }
+#button{
+    width: 535px;
+}
 /* media puary */
 @media screen and (max-width: 576px) {
     .name{
@@ -99,7 +105,7 @@
     
     }
     #button{
-        width: 130px;
+        width:135px;
     }
     html{
         overflow-x: hidden;
