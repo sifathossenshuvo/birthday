@@ -33,7 +33,9 @@
 }
 .gift{
     justify-content: space-between;
+
 }
+
 .about{
     text-align: center;
 }
@@ -69,6 +71,10 @@
 .texter{
     text-align: center;
 }
+.facilis{
+    width: 500px;
+    border-radius: 16px;
+}
 /* media puary */
 @media screen and (max-width: 576px) {
     .name{
@@ -76,7 +82,26 @@
         padding: 10px;
         gap: 30px;
     }
-    .gift{
-       
+    .gift img{
+        width: 300px;
+        
+    }
+    .input input{
+        width: 100px;
+        margin-top: 15px;
+        padding: 20px 15px;
+        background-color: aquamarine;
+    }
+    .input{
+        display: flex;
+        flex-direction: column;
+        margin-left: 23px;
+    
+    }
+    #button{
+        width: 130px;
+    }
+    html{
+        overflow-x: hidden;
     }
 }
